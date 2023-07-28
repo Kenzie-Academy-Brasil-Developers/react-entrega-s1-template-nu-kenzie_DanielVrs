@@ -1,0 +1,30 @@
+.input {
+	background-color: var(--Grey-1) ;
+	border: 2px solid var(--Grey-1);
+	border-radius: 8px;
+	height: 48px;
+	padding-left: 16px;
+	width: 100%;
+
+	font-family: var(--font-family-secondary);
+	font-weight: 400;
+	font-size: 1rem; // 16px
+	color: var(--Grey-3);
+
+	:focus{
+		border: 2px solid var(--Grey-4);
+	}
+
+	&.sm {
+		max-width:8rem; //128px
+	}
+
+	&.lg{
+		max-width: 20.3125rem; //325px
+	}
+
+	&::-webkit-outer-spin-button,
+	&::-webkit-inner-spin-button{
+		appearance: none;
+	}
+}

@@ -1,0 +1,26 @@
+
+
+:root {
+	
+	--font-family-primay: 'Nunito', sans-serif;
+	--font-family-secondary:'Inter', sans-serif;
+	
+	--color-primary: #FD377E;
+	--Color-primary-2: #E34981;
+	--Color-Secondary: #03B898;
+	
+	--Grey-4: #212529;
+	--Grey-3: #868E96;
+	--Grey-2: #E9ECEF;
+	--Grey-1: #F8F9FA;
+	--white: #FFFFFF;
+}
+
+
+
+.container{
+	max-width: 62.5rem;  //1000px
+	width: 100%;
+	padding: 27px 20px; //27px 20px
+	margin: 0 auto;
+}

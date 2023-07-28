@@ -1,0 +1,13 @@
+.sectionFinance{
+	
+	display: flex;
+	flex-wrap: wrap;
+	gap: clamp(20px, 6vw, 59px);
+	
+	
+	>div{
+		display: flex;
+		flex-direction: column;
+		gap: 20px; 
+	}
+}

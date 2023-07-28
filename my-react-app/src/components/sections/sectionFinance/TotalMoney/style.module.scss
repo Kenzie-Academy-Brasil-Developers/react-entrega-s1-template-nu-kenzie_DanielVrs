@@ -1,0 +1,26 @@
+.totalMoney {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding: 20px;
+	gap: 20px;
+
+
+	height: 6rem; // 96px
+	width: 22.1875rem;  //355px
+
+	border: 1px solid var(--grey-2, #E9ECEF);
+	border-radius: 4px;
+
+
+	>div{
+		display: flex;
+		flex-direction: row;
+		flex-wrap: nowrap;
+		justify-content: space-between;
+	}	
+	
+	span{
+		color: #343A40;
+	}
+}

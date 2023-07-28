@@ -1,0 +1,13 @@
+
+.listSummary{
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+
+	max-width: 100%;
+
+	.empytText{
+		margin-top: clemp( 10px, 5vh, 30px);
+		line-height: 34px;
+	}
+}

@@ -1,0 +1,47 @@
+
+.btn {
+	display: inline-flex;
+	height: 3rem; //48px
+	padding: 0.8125rem 1.25rem; // 13px 20px
+	justify-content: center;
+	align-items: center;
+	gap: 10px; 
+	flex-shrink: 0;
+	background-color: var(--color-primary);
+	color: var(--white);
+	
+	border-radius: 8px;
+	
+	cursor: pointer;
+	
+	&:hover{
+		background-color: var(--Color-primary-2);
+	}
+}
+
+.btnDelete{
+
+	font-family: var(--font-family-primay);
+	display: inline-flex;
+	
+	justify-content: center;
+	align-items: center;
+	
+	background-color: var(--Grey-2);
+	color: var(--Grey-4);
+	border-radius: 2px;
+
+	font-size: 0.625rem; //10px
+	font-weight: 400;
+
+	width: 49px;
+	height: 19px;
+
+	cursor: pointer;
+
+	&:hover{
+		background-color: var(--Grey-4) ;
+		color: var(--Grey-2);
+	}
+
+}
